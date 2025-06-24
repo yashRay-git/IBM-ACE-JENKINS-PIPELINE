@@ -9,6 +9,6 @@ CREATE COMPUTE MODULE flows_Compute
 
 
 	CREATE PROCEDURE CopyEntireMessage() BEGIN
-		SET OutputRoot.JSON.Data.app= 'this is from ace jenkins hello';
+		SET OutputRoot.JSON.Data.appInformation= 'this is from ace jenkins hello';
 	END;
 END MODULE;
